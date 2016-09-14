@@ -31,7 +31,8 @@
             <TextBlock x:Name="valueSpeed" Foreground="White" TextAlignment="Center" Text="52" Margin="0,0" Padding="0,8"/>
         </StackPanel>
         <Image x:Name="image" Grid.Column="3" Margin="296.167,10,10,10" Source="Assets/cell-signal.png"/>
-        <TextBlock x:Name="textBlock" FontSize="11" Grid.Column="3" HorizontalAlignment="Left" Margin="10,35,0,0" TextWrapping="Wrap" Text="Last Payload Sent: " VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock" FontSize="11" Grid.Column="3" HorizontalAlignment="Left" Margin="10,35,0,0" TextWrapping="Wrap" Text="Last payload sent: " VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock_Copy" FontSize="11" Grid.Column="3" HorizontalAlignment="Left" Margin="10,15,0,0" TextWrapping="Wrap" Text="Next upload in:" VerticalAlignment="Top"/>
 
     </Grid>
 </Page>

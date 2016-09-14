@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IgniteDemoPreUpdate", "IgniteDemoPreUpdate\IgniteDemoPreUpdate.csproj", "{C62C2A08-3C8A-4634-A5EA-CE6AE09C8EA3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehicleGateway", "IgniteDemoPreUpdate\VehicleGateway.csproj", "{C62C2A08-3C8A-4634-A5EA-CE6AE09C8EA3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
