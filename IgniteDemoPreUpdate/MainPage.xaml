@@ -7,7 +7,31 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Grid Background="Firebrick">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="19*"/>
+            <RowDefinition Height="101*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="152*"/>
+            <ColumnDefinition Width="86*"/>
+            <ColumnDefinition Width="41*"/>
+            <ColumnDefinition Width="361*"/>
+        </Grid.ColumnDefinitions>
+        <StackPanel Grid.Column="0" Margin="10" Grid.RowSpan="2">
+            <TextBlock x:Name="textEngineTmp" Foreground="White" TextAlignment="Center" Text="Engine Temp" Margin="0,0" Padding="0,8"/>
+            <TextBlock x:Name="textOilLife" Foreground="White" TextAlignment="Center" Text="Oil Life" Margin="0,0" Padding="0,8"/>
+            <TextBlock x:Name="textSeatbelt" Foreground="White" TextAlignment="Center" Text="Seatbelt" Margin="0,0" Padding="0,8"/>
+            <TextBlock x:Name="textSpeed" Foreground="White" TextAlignment="Center" Text="Speed" Margin="0,0" Padding="0,8"/>
+        </StackPanel>
+        <StackPanel Grid.Column="1" Margin="10" Grid.RowSpan="2">
+            <TextBlock x:Name="valueEngineTmp" Foreground="White" TextAlignment="Center" Text="112" Margin="0,0" Padding="0,8"/>
+            <TextBlock x:Name="valueOilLife" Foreground="White" TextAlignment="Center" Text="73" Margin="0,0" Padding="0,8"/>
+            <TextBlock x:Name="valueSeatbelt" Foreground="White" TextAlignment="Center" Text="Active" Margin="0,0" Padding="0,8"/>
+            <TextBlock x:Name="valueSpeed" Foreground="White" TextAlignment="Center" Text="52" Margin="0,0" Padding="0,8"/>
+        </StackPanel>
+        <Image x:Name="image" Grid.Column="3" Margin="296.167,10,10,10" Source="Assets/cell-signal.png"/>
+        <TextBlock x:Name="textBlock" FontSize="11" Grid.Column="3" HorizontalAlignment="Left" Margin="10,35,0,0" TextWrapping="Wrap" Text="Last Payload Sent: " VerticalAlignment="Top"/>
 
     </Grid>
 </Page>
